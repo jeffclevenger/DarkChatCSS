@@ -1,0 +1,433 @@
+
+/*Vars
+base03    #002b36 rgba(0,43,54,1);
+base02    #073642 rgba(7,54,66,1);
+base01    #586e75 rgba(88,110,117,1);
+base00    #657b83 rgba(101,123,131,1);
+base0     #839496 rgba(131,148,150,1);
+base1     #93a1a1 rgba(147,161,161,1);
+base2     #eee8d5 rgba(238,232,213,1);
+base3     #fdf6e3 rgba(253,246,227,1);
+yellow    #b58900 rgba(181,137,0,1);
+orange    #cb4b16 rgba(203,75,22,1);
+red       #dc322f rgba(220,50,47,1);
+magenta   #d33682 rgba(211,54,130,1);
+violet    #6c71c4 rgba(108,113,196,1);
+blue      #268bd2 rgba(38,139,210,1);
+cyan      #2aa198 rgba(42,161,152,1);
+green     #859900 rgba(133,153,0,1);
+*/
+:root {
+    --base04: rgba(0, 0, 0, .95);
+    /*background between conversations*/
+    --base03: rgba(0, 0, 0, .95);
+    /*main conversation blocks*/
+    --base02: rgba(0, 0, 0, .95
+    );
+    /*main header*/
+    --base01: rgb(103, 130, 139);
+    /*selected room/DM highlight*/
+    --base00: rgb(0, 255, 0);
+    /*edit&delete icons*/
+    --base0: rgba(131, 148, 150, 1);
+    /*feedback icon*/
+    --base1: rgb(0, 255, 0);
+    /*side bar text*/
+    --base2: rgb(0, 255, 0);
+    /*center text*/
+    --base3: rgba(253, 246, 227, 1);
+    /*selected room/DM* or undread room/DM text*/
+    --base4: rgba(0, 77, 255, 1);
+    /*@tags*/
+    --yellow: rgba(181, 137, 0, 1);
+    --orange: rgba(203, 75, 22, 1);
+    --red: rgba(220, 50, 47, 1);
+    --magenta: rgba(211, 54, 130, 1);
+    --violet: rgba(108, 113, 196, 1);
+    --blue: rgba(38, 139, 210, 1);
+    --cyan: rgba(42, 161, 152, 1);
+    --green: rgba(133, 153, 0, 1);
+}
+
+body  {
+    background-color: var(--base04);
+    color: var(--base2);
+}
+
+.oGsu4 {
+    
+    background-color: var(--base01);
+    opacity: 0.96;
+    
+}
+
+
+/* Loaging Screen */
+.bzJiD:not(.eO2Zfd):before {
+    background-color: var(--base01);
+    opacity: 0.96;
+}
+
+
+/* Header Bar */
+.DWzK6d {
+    background-color: var(--base02);
+}
+
+
+/* Chat Logo */
+#XMLID_8_-Clipped {
+    fill: var(--base3) !important;
+    opacity: 0.7
+}
+
+
+/* Group Name */
+.dKv0S .i5PBGe {
+    color: var(--base2);
+}
+.i5PBGe.iWO5td,
+.i5PBGe:active,
+.i5PBGe:focus,
+.i5PBGe:hover {
+    background-color: var(--base01);
+    color: var(--base3);
+}
+.xzTN8b {
+    background-color: var(--base02);
+}
+.i5PBGe:hover .xzTN8b,
+.i5PBGe:focus .xzTN8b,
+.i5PBGe.u3bW4e .xzTN8b,
+.i5PBGe.iWO5td .xzTN8b,
+.S6YNQd {
+    color: var(--base3);
+    fill: var(--base3);
+}
+.UZl8cf {
+    color: var(--base3);
+}
+
+
+/* Switch Group Dropdown */
+.JPdR6b {
+    background-color: var(--base02);
+}
+
+/* Groups */
+.z80M1 {
+    color: var(--base3);
+}
+
+/* Groups Hovered */
+.z80M1.FwR7Pc {
+    background-color: var(--base01);
+}
+
+/* Group Icons */
+.o50UJf {
+    fill: var(--cyan);
+}
+
+/* Search/Gear Icons */
+.Nj8aCb:hover,
+.Nj8aCb:focus {
+    color: var(--base2);
+    fill: var(--base2);
+    background-color: var(--base01);
+}
+.V3Pk2 {
+    color: var(--base2);
+    fill: var(--base2);
+}
+
+
+/* Feedback Wrapper */
+.TaudIc {
+    color: var(--base0);
+    fill: var(--base0);
+}
+
+
+/* Left Nav Bar Wrapper */
+.X9KLPc {
+    background-color: var(--base03);
+    border-right-color: var(--base1);
+    font-weight: bold;
+}
+
+
+/* Find People Hover */
+.GbZFNe:focus,
+.GbZFNe:hover {
+    background-color: var(--base02);
+}
+
+
+/* Group Label */
+.t5F5nf {
+    color: var(--base1);
+}
+
+
+/* Group Label w/ New Message */
+.PL5Wwe.H7du2 .t5F5nf {
+    color: var(--base3);
+}
+
+
+/* Group */
+.PL5Wwe:focus,
+.PL5Wwe:hover:not(.tuKyod),
+.tuKyod:hover .LoYJxb {
+    background-color: var(--base02);
+}
+
+
+/* Selected Group */
+.PL5Wwe.KKjvXb:not(.tuKyod),
+.PL5Wwe.qs41qe:not(.tuKyod) {
+    background-color: var(--base01);
+}
+.PL5Wwe.KKjvXb .t5F5nf,
+.PL5Wwe.KKjvXb .sFuxxd,
+.PL5Wwe.qs41qe .t5F5nf,
+.PL5Wwe.qs41qe .sFuxxd,
+.GSEpfc .t5F5nf {
+    color: var(--base3);
+}
+
+
+/* Keyboard shortcut tooltip */
+.RM9ulf {
+    color: var(--base03);
+}
+.R8qYlc {
+    background-color: var(--base3);
+}
+
+
+/* Left Add Person Bar */
+.d6pS5.i6oIBe .W2x1cc {
+    background: var(--base02);
+}
+.D3DXDc {
+    fill: var(--base2);
+}
+.Uk0Bfe .snByac {
+    color: var(--base2);
+}
+.yoV6yd {
+    background: var(--base03);
+}
+.tOToeb {
+    border-bottom-color: var(--base2);
+}
+.dQ2Tsf .NXfF8b,
+.dQ2Tsf .ZTmjQb {
+    color: var(--base2);
+}
+.jAwRLb {
+    fill: var(--cyan);
+}
+
+
+/* Main Section */
+.WQKmIb .Bl2pUd,
+.Bl2pUd {
+    background-color: var(--base04);
+}
+.A2BXPe {
+    color: var(--base2);
+}
+.ZlQIRd,
+.ZGAbn {
+    fill: var(--base2);
+}
+.pihjkd {
+    color: var(--cyan);
+}
+.m3sLHf {
+    color: var(--base2);
+}
+.fWwrkf {
+    color: var(--base4);
+}
+.NhKrqd.xgwyCc {
+    color: var(--base4);
+    background-color: transparent;
+}
+.Zc1Emd.QIJiHb {
+    font-size: 14px !important;
+}
+
+
+/* Room Header */
+.tCUB4c {
+    color: var(--base3);
+}
+
+
+/* Room Created Note */
+.qnDW3d {
+    color: var(--base1);
+}
+
+
+/* Conversations */
+.dsoUjb {
+ background-color: rgb(20, 20, 20);
+}
+
+/* Convos in Groups */
+.WQKmIb .Bl2pUd .dsoUjb {
+ background-color: rgb(20, 20, 20);
+}
+.XbbXmb.zzVqCe .nF6pT,
+.jGyvbd .jO0Dzb {
+ background-color: rgb(20, 20, 20)
+
+}
+.oGsu4,
+.zPVzl {
+ background-color: rgb(20, 20, 20);
+}
+.cmEq8b .Zc1Emd,
+.cmEq8b .Z4BnXb,
+.zPVzl {
+    color: var(--base2);
+}
+.nF6pT.FwR7Pc .Hj5Fxb,
+.hu21Y:hover {
+    background-color: var(--base03);
+}
+
+/* Message Group Icons */
+.orLAid {
+    fill: var(--base00);
+    color: var(--base00);
+}
+.orLAid:hover,
+.orLAid.u3bW4e {
+    fill: rgba(0, 255, 0, 0.54);
+    color: rgba(0, 255, 0, 0.54);
+}
+.nF6pT.FwR7Pc .orLAid,
+.hu21Y:hover .orLAid,
+.orLAid:focus {}
+
+/* Code Blocks */
+.FMTudf {
+    background-color: var(--base02);
+    color: var(--base2);
+    border-color: var(--base0);
+}
+
+
+/* Notification Icon */
+.otWEZc {
+    fill: var(--red);
+}
+
+
+/* New Message Box */
+.bzJiD .IEIJqd.qs41qe .XganBc,
+.IEIJqd .I0LFzc {
+    background-color: rgba(0, 0, 0, .95);
+}
+.BScnzc {
+    color: var(--base3);
+}
+.XweIZc {
+    color: var(--base1);
+}
+.oAzRtb.krjOGe {
+    color: var(--base2);
+}
+.lljjAe.otZYCe {
+    color: var(--base2);
+}
+.qnCNBb {
+    color: var(--base2);
+}
+
+
+/* Reply Box */
+.vmpzOc.eO2Zfd {
+    border-top: solid 1px var(--base3);
+    background-color: var(--base03);
+}
+
+
+/* History Tab */
+.IEIJqd.Myox3c .D6C1Qe {
+    background-color: var(--base03);
+}
+.lljjAe {
+    color: var(--cyan);
+}
+.lljjAe.X0MG1d {
+    color: var(--blue);
+}
+.WQKmIb .IEIJqd.Myox3c .deR9Se {
+    background-color: var(--base02);
+}
+.g8tjdc.otZYCe {
+    color: var(--base2);
+}
+
+
+/*New Sidebar Text & Chat Headers*/
+.NSGyE {
+    background-color: var(--base03);
+}
+.Sx3Anb {
+    color: rgba(0, 255, 0, 0.54);
+    font-weight: bold;
+}
+.jy2fzc {
+    color: rgba(0, 255, 0, 0.54);
+    font-weight: bold;
+}
+.nk7hB.Pa7Iqd.NXfF8b.ojqkvd {
+    color: var(--base2);
+    font-weight: bold;
+}
+.UZl8cf.Civ5ed.ojqkvd {
+    color: var(--base2);
+    font-weight: bold;
+}
+.GfYBMd.S6YNQd.t4aTpc.Kol3Vd.ojqkvd {
+    fill: var(--base2);
+    font-weight: bold;
+}
+.is2u3.JEBAHf {
+    background-color: var(--base03);
+}
+.aOHsTc {
+    color: var(--base2);
+    font-weight: bold;
+}
+.WQKmIb .byY7Yb {
+    background-color: var(--base03);
+}
+.erYYcb .t5F5nf {
+    color: var(--base2);
+}
+.xWyObb {
+    fill: var(--base2);
+}
+
+/* Footer */
+.WQKmIb .byY7Yb {
+    background-color: var(--base03);
+}
+
+.bzJiD .IEIJqd.qs41qe .XganBc.XganBc,
+.bzJiD .IEIJqd .XganBc.XganBc {
+    background-color: var(--base03);
+}
+
+.WQKmIb .IEIJqd .deR9Se.deR9Se {
+    background-color: var(--base03);
+}
