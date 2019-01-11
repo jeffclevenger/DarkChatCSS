@@ -61,6 +61,14 @@ body  {
     
 }
 
+/* Added by Gaston */
+
+/* For icons in the new message box */
+.CfUpN {
+    background-color: var(--base01);
+    border-radius: 20px;
+}
+
 
 /* Loaging Screen */
 .bzJiD:not(.eO2Zfd):before {
