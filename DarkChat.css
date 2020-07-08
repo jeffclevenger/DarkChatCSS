@@ -71,9 +71,9 @@ body {
 .dJ9vNe,
 .BScnzc,
 .EFNTcf,
-.nF6pT.jO0Dzb,
-.foTTDb {
-    background-color: var(--base02);
+.XbbXmb.zzVqCe,
+.foTTDb, .XbbXmb.zzVqCe, .nF6pT, .dsoUjb, .jGyvbd, .jO0Dz {
+    background-color: var(--base02) !Important;
 }
 
 /* Chat Logo */
@@ -188,7 +188,7 @@ body {
 .rFrNMe:not(.Xavc3e) .zHQkBf,
 .rFrNMe:not(.Xavc3e) .snByac,
 .oAzRtb {
-    color: var(--base01);
+    color: var(--base01) !Important;
 }
 
 /* Group Label */
@@ -361,6 +361,13 @@ body {
     border-top: solid 1px var(--base3);
     background-color: var(--base03);
 }
+
+/* Unread Box */
+.Fv5sh {
+    border-top: solid 1px var(--base3);
+    background-color: var(--base03);
+}
+
 
 /* History Tab */
 .IEIJqd.Myox3c .D6C1Qe {
