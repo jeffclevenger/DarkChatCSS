@@ -33,7 +33,7 @@ green     #859900 rgba(133,153,0,1);
     /*side bar text*/
     --base2: rgb(0, 255, 0);
     /*center text*/
-    --base3: rgba(253, 246, 227, 1);
+    --base3: rgb(255, 255, 255);
     /*selected room/DM* or undread room/DM text*/
     --base4: rgba(0, 77, 255, 1);
     /*@tags*/
@@ -45,6 +45,12 @@ green     #859900 rgba(133,153,0,1);
     --blue: rgba(38, 139, 210, 1);
     --cyan: rgba(42, 161, 152, 1);
     --green: rgba(133, 153, 0, 1);
+}
+
+/* Group Name */
+.dKv0S .i5PBGe,
+.njhDLd {
+    color: var(--base2) !Important;
 }
 
 body {
@@ -60,7 +66,13 @@ body {
 
 /* Header Bar */
 .DWzK6d,
-.Xs68kb {
+.Xs68kb,
+.AflJR,
+.dJ9vNe,
+.BScnzc,
+.EFNTcf,
+.nF6pT.jO0Dzb,
+.foTTDb {
     background-color: var(--base02);
 }
 
@@ -70,14 +82,12 @@ body {
     opacity: 0.7
 }
 
-/* Group Name */
-.dKv0S .i5PBGe {
-    color: var(--base2);
-}
+
 .i5PBGe.iWO5td,
 .i5PBGe:active,
 .i5PBGe:focus,
-.i5PBGe:hover {
+.i5PBGe:hover,
+.BYyLJ {
     background-color: var(--base01);
     color: var(--base3);
 }
@@ -98,7 +108,8 @@ body {
 
 /* Added by Gaston */
 /* For icons in the new message box */
-.CfUpN {
+.CfUpN,
+.OcqlLb.vif9vc {
     background-color: var(--base01);
     border-radius: 20px;
 }
@@ -145,7 +156,8 @@ body {
 }
 /* Search/Gear Icons */
 .Nj8aCb:hover,
-.Nj8aCb:focus {
+.Nj8aCb:focus,
+.GfYBMd vsxzuf {
     color: var(--base2);
     fill: var(--base2);
     background-color: var(--base01);
@@ -174,7 +186,8 @@ body {
 }
 
 .rFrNMe:not(.Xavc3e) .zHQkBf,
-.rFrNMe:not(.Xavc3e) .snByac {
+.rFrNMe:not(.Xavc3e) .snByac,
+.oAzRtb {
     color: var(--base01);
 }
 
@@ -367,7 +380,8 @@ body {
 .jfkEkc:hover {
     background-color: var(--base02);
 }
-.fKz7Od {
+.fKz7Od,
+.oAzRtb {
     color: var(--base3);
     fill: var(--base0);
 }
